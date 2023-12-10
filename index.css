@@ -1,0 +1,452 @@
+/* @import url('https://fonts.googleapis.com/css2?family=Ysabeau+SC:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Caveat:wght@500&family=Ysabeau+SC:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Caveat:wght@500&family=McLaren&family=Ysabeau+SC:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Crimson+Text:wght@600&family=Josefin+Sans:ital@1&family=Jost&display=swap'); */
+@import url("https://fonts.googleapis.com/css2?family=Caveat:wght@500&family=Fjalla+One&family=Jost:wght@300&family=McLaren&family=Ysabeau+SC:wght@300&display=swap");
+
+/* font-family: 'Caveat', cursive;
+  font-family: 'Fjalla One', sans-serif;
+  font-family: 'Jost', sans-serif;
+  font-family: 'McLaren', cursive;
+  font-family: 'Ysabeau SC', sans-serif; */
+
+/* nav bars */
+
+.navbar {
+  background-color: rgb(255, 255, 255);
+}
+
+.pb {
+  padding: 3px;
+}
+
+/*  header */
+
+.main-page {
+  width: 100%;
+  height: 90vh;
+  background-image: url(dress.img/sarees\ 0.1.jpg);
+  background-position: top;
+  background-size: cover;
+}
+
+.header {
+  position: absolute;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: flex-start;
+  padding: 130px 0px 0px 30px !important;
+  margin: 80px auto;
+  font-size: 4vmin;
+}
+
+.header > h4 {
+  color: rgb(0, 0, 0);
+  font-family: "Fjalla One", sans-serif;
+}
+
+.header > h2 {
+  padding-top: 15px;
+  color: rgb(255, 212, 131);
+  font-family: "Ysabeau SC", sans-serif;
+}
+
+.header > p {
+  color: rgb(0, 0, 0);
+  font-size: small;
+  font-family: "Fjalla One", sans-serif;
+}
+
+.header > h1 {
+  font-size: 6vmin;
+  padding: 10px 0px;
+  color: rgb(255, 255, 255);
+  letter-spacing: 2px;
+  font-family: "Crimson Text", serif;
+}
+
+.ctn {
+  width: 100px;
+  margin: 5px 5px;
+  font-size: 15px;
+  background-color: rgb(54, 24, 24);
+  color: white;
+  border: none;
+  font-family: "McLaren", cursive;
+  padding: 5px 0px;
+  border-radius: 5px;
+}
+/*  */
+/* cards */
+/* 
+
+/* */
+.limited {
+  width: 100%;
+  text-transform: capitalize;
+  margin: 50px 0px 50px 0px;
+  background-color: lavenderblush;
+}
+.time {
+  text-align: center;
+  letter-spacing: 1px;
+  margin: 20px 0px 0px 10px;
+  text-transform: uppercase;
+  font-family: "Ysabeau SC", sans-serif;
+  font-weight: bold;
+  font-size: 3vh;
+}
+.time h6 {
+  text-align: center;
+  letter-spacing: 1px;
+  text-transform: uppercase;
+  font-family: "Ysabeau SC", sans-serif;
+  font-weight: bold;
+  font-size: 3vh;
+  margin-top: 20px;
+}
+.time p {
+  width: 100%;
+  text-align: center;
+  text-transform: uppercase;
+  font-family: "Fjalla One", sans-serif;
+  font-size: 6vh;
+  font-weight: 700;
+}
+.new {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: space-evenly;
+}
+/* .new img {
+  width: 250px;
+  height: 330px;
+  object-fit: fill;
+  margin: 40px 0px 10px 10px;
+  border-radius: none;
+} */
+.new img:hover {
+  opacity: 0.8;
+  cursor: alias;
+  transform: scale(1.02);
+}
+.new h6 {
+  font-size: 2vh;
+  font-family: "McLaren", cursive;
+  margin-left: 30px;
+  font-weight: bold;
+}
+
+.new p {
+  font-size: 2vh;
+  font-family: "McLaren", cursive;
+}
+
+.full img {
+  width: 230px;
+  height: 300px;
+}
+.full {
+  width: 230px;
+}
+.full p {
+  margin-left: 30px;
+}
+.full h6 {
+  margin-bottom: 10px;
+  margin-top: 10px;
+}
+
+/* banner */
+
+.bann {
+  background-image: url(/dress.img/wp7810994-silk-saree-wallpapers.jpg);
+  height: 150px;
+  width: auto;
+  background-size: cover;
+  background-repeat: no-repeat;
+  object-fit: cover;
+  padding: 0px !important;
+}
+.refer {
+  width: 100%;
+  text-align: center;
+  padding: 10px;
+  letter-spacing: 2px;
+  color: white;
+  font-size: 15px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-family: "Fjalla One", sans-serif;
+}
+.ctn {
+  width: 100px;
+  padding: 5px;
+  border-radius: 3px;
+  font-size: 10px;
+}
+.join:hover {
+  opacity: 0.8;
+  cursor: alias;
+  transform: scale(1.02);
+  background-color: rgb(250, 217, 132);
+  color: rgb(0, 0, 0);
+  border: 1px solid rgb(0, 0, 0);
+}
+.refer span {
+  color: rgb(0, 0, 0);
+  font-weight: bold;
+}
+.refer i {
+  color: gold;
+  padding: 10px;
+}
+.refer p {
+  margin: 10px 0px 0px 0px !important;
+}
+
+/*   category  */
+.category {
+  margin-top: 50px;
+  background-color: rgb(250, 242, 244);
+}
+.first__category {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: center;
+}
+.sareee__img {
+  object-fit: cover;
+  margin-top: 20px;
+  text-align: center;
+  letter-spacing: 1px;
+  margin: 10px auto;
+  height: auto;
+}
+
+.sareee__img :hover {
+  opacity: 0.9;
+  cursor: alias;
+  transform: scale(1.02);
+}
+
+.sareee__img p {
+  margin-bottom: 0px;
+  margin: 8px;
+  cursor: pointer;
+}
+.sareee__img .ctn {
+  width: 70px;
+}
+.sareee__img .ctn:hover {
+  cursor: pointer;
+  transform: scale(1.2);
+  background-color: rgb(114, 32, 32);
+}
+
+/* -------------------------- */
+
+.reference {
+  width: 100%;
+  padding: 0px !important;
+}
+
+.refers {
+  height: 100px;
+  background-color: rgb(22, 21, 21);
+  color: white;
+  text-align: center;
+  text-transform: uppercase;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  font-size: 2.9vh;
+  margin-top: 30px;
+}
+
+.refers button {
+  padding: 10px;
+  font-size: 2vh;
+  background-color: rgb(255, 255, 255);
+  color: rgb(0, 0, 0);
+  border: none;
+  border-radius: 5px;
+  margin-left: 30px;
+  font-size: 12px;
+  font-weight: bold;
+}
+
+.ctm:hover {
+  transform: scale(1.1);
+  cursor: pointer;
+  background-color: rgb(228, 194, 59);
+  color: black;
+}
+
+.refers span {
+  color: rgb(228, 194, 59);
+  font-family: "Jost", sans-serif;
+}
+
+.refers span > i {
+  margin: 0px 10px 6px 0px;
+  font-size: 25px;
+}
+
+.refers p {
+  margin: 15px;
+
+  font-family: "Ysabeau SC", sans-serif;
+  letter-spacing: 1px;
+}
+
+/* last hub */
+.essential {
+  width: 100%;
+  height: 100vh;
+}
+.hub {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.hub img {
+  width: 355px;
+
+  padding: 10px;
+}
+.essent {
+  text-align: center;
+  padding: 30px;
+  text-transform: uppercase;
+  font-family: "Fjalla One", sans-serif;
+  font-size: 5vh;
+  font-weight: 700;
+}
+.hub .ctn {
+  background-color: black;
+  border-radius: 3px;
+  display: block;
+  margin-bottom: 10px;
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+  position: absolute;
+  margin-top: -50px;
+  margin-left: 18px;
+  padding: 5px;
+  font-size: small;
+}
+
+/* ----------------------- */
+.group {
+  width: 100%;
+  margin: 30px 0px;
+  overflow-y: auto;
+  white-space: nowrap;
+  text-align: center;
+}
+.sliders {
+  text-align: center;
+  margin-top: 10px;
+}
+.sliders h2 {
+  letter-spacing: 1px;
+  font-family: "Ysabeau SC", sans-serif;
+  font-weight: bold;
+  margin: 8px;
+}
+.sliders h6 {
+  letter-spacing: 1px;
+  font-weight: lighter;
+  margin: 8px;
+  font-family: "McLaren", cursive;
+}
+.scrolling img {
+  width: 280px;
+  height: 400px;
+  object-fit: cover;
+}
+.scrolling img:hover {
+  opacity: 0.9;
+  cursor: alias;
+  transform: scale(1.02);
+}
+.scrolling {
+  display: inline-block;
+  white-space: normal;
+  padding-bottom: 10px;
+  padding-top: 10px;
+  padding-right: 20px;
+}
+.slider_font p {
+  margin: 10px;
+  margin-bottom: 0px !important;
+  cursor: pointer;
+  letter-spacing: 1.5px;
+  font-weight: 600;
+  font-family: "Jost", sans-serif;
+}
+.slider_font .ctn {
+  width: 70px;
+  color: rgb(0, 0, 0);
+  background-color: white;
+}
+.slider_font .ctn:hover {
+  cursor: pointer;
+  transform: scale(1.2);
+  background-color: rgb(196, 196, 196);
+}
+
+.site-footer {
+  background-color: #f7f7f7;
+  padding: 70px 0;
+  color: #333;
+}
+
+.footer-content {
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+}
+
+.footer-section {
+  flex: 1;
+  max-width: 300px;
+  margin: 0 30px;
+}
+
+.footer-section h2 {
+  margin-bottom: 20px;
+  font-size: 24px;
+}
+
+ul {
+  list-style: none;
+  padding: 0;
+}
+
+ul li {
+  margin-bottom: 15px;
+}
+
+ul li a {
+  text-decoration: none;
+  color: #333;
+  font-size: 18px;
+}
+
+.footer-bottom {
+  text-align: center;
+  margin-top: 40px;
+  padding-top: 20px;
+  border-top: 2px solid #ccc;
+  font-size: 16px;
+}
